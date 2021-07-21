@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
+body{
+    background-image: url(bgw.jpeg);
+    
+}
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  .headin h1{
+    font-family: 'BigNoodleTitling', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: crimson;
+  }
+  .headin h1{
+      background-color: azure;
+      width: 30%;
+      margin-left: 450px;
+  }
+  .headin p{
+      text-align: center;
+      color: brown;
+      background-color: azure;
+      margin-top: 25px;
+      padding: 20px;
+      width: 35%;
+      margin-left: 390px;
+  }
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+  }
+  
+  .box  img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    background-color: aliceblue;
+    transition: .5s;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .box  span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+    color: burlywood;
+    background-color: brown;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover  img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-center p{
+      background-color: brown;
+      z-index: -1;
+  }
+
+  
+   
